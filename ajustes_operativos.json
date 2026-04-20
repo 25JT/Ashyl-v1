@@ -1,0 +1,49 @@
+{
+    "abrir_explorador_de_archivos": {
+        "steps": [
+            {
+                "accion": "escribir_humanamente",
+                "detalle": "tecla win"
+            },
+            {
+                "accion": "escribir_humanamente",
+                "detalle": "texto explorador"
+            },
+            {
+                "accion": "escribir_humanamente",
+                "detalle": "tecla enter"
+            }
+        ],
+        "timestamp": 1776445144.7689495,
+        "usage_count": 1
+    },
+    "PREFERENCIAS_GENERALES": {
+        "steps": [],
+        "observaciones": [
+            {
+                "nota": "resolucion_pantalla: 1920x1080",
+                "fecha": "2026-04-17 12:07:57"
+            }
+        ]
+    },
+    "Abrir Explorador de Archivos": {
+        "steps": [
+            {
+                "accion": "presionar_hotkey",
+                "detalle": "Presionar la tecla Windows para abrir el menú de inicio/búsqueda.",
+                "teclas": [
+                    "win"
+                ]
+            },
+            {
+                "accion": "presionar_hotkey",
+                "detalle": "Presionar 'e' para acceder directamente al Explorador de Archivos.",
+                "teclas": [
+                    "e"
+                ]
+            }
+        ],
+        "timestamp": 1776458485.5667782,
+        "usage_count": 1
+    }
+}

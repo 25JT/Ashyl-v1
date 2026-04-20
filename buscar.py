@@ -1,5 +1,9 @@
 import http.client
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 def buscar(pregunta):
     conn = http.client.HTTPSConnection("google.serper.dev")
@@ -9,7 +13,7 @@ def buscar(pregunta):
     "hl": "es-419"
     })
     headers = {
-    'X-API-KEY': 'TU API DE serper ',
+    'X-API-KEY': os.getenv("API_KEY"),
     'Content-Type': 'application/json'
     }
     conn.request("POST", "/search", payload, headers)

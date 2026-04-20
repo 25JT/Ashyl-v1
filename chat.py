@@ -42,7 +42,8 @@ def recibir_chunk(chunk):
 
 def procesar_respuesta(mensaje_usuario):
     """Hilo secundario para manejar la conexión y el streaming."""
-    boton_enviar.configure(state="disabled", text="Escribiendo...")
+    boton_enviar.configure(state="disabled", text="Pensando...")
+
     
     # Preparamos el inicio del mensaje de Ashly
     app.after(0, lambda: append_to_chat("Ashly: "))
